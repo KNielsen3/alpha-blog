@@ -1,8 +1,9 @@
-<h1> Create an article</h1>
+<H1>Edit existing article</H1>
+
 
 <% if @article.errors.any? %>
   
-<h2> The following errors prevented the article from being created </h2>
+<h2> The following errors prevented the article from being updated </h2>
   <ul>
   <% @article.errors.full_messages.each do |msg| %>
   	<li><%= msg %></li>
